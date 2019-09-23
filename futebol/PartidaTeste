@@ -1,0 +1,47 @@
+public class PartidaTeste {
+
+	public static void main(String[] args) {
+		
+		
+		
+			
+				
+		// utilizando  a entrada de dados //
+				
+				Time fluminense = new Time("fluminense");
+				
+				
+				Time botafogo= new Time("botafogo");
+				
+				for(int i = 0 ; i<10 ; i++)
+				{
+					
+					
+					Partida partida = new Partida(fluminense,botafogo);
+					
+					partida.iniciarPartida();
+					
+					partida.mostrarResultado();
+					
+					partida.finalizarPartida();	
+					
+				}
+				
+				botafogo.listar();
+				
+				fluminense.listar();
+
+	}
+				
+				
+		
+				
+
+			
+
+		}
+
+
+	
+
+
