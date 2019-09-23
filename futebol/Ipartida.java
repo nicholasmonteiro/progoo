@@ -4,11 +4,11 @@ public interface Ipartida {
 	
 			 
 		
-		public abstract void iniciarPartida();
+		public void iniciarPartida();
 		
-		public abstract void mostrarResultado();
+		public  void mostrarResultado();
 		
-		public abstract void finalizarPartida();
+		public  void finalizarPartida();
 		
 		
 
