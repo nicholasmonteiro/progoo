@@ -1,0 +1,32 @@
+import java.util.Scanner;
+
+public class Idade {
+	
+	
+	
+	public static void main(String[] args) {
+		
+		Scanner I = new Scanner(System.in);
+		
+		System.out.print("ente com ano q naceu ?");
+		int nasc= I.nextInt();
+		int i = 2019-nasc;
+		
+		System.out.print("sua idade é " + i);
+		
+		if(i>=18)
+			
+		System.out.println("maior de idade");
+		else {
+			System.out.println("menor de idade");	
+		
+		}
+		
+		
+	}
+	
+}
+	
+	
+
+	
