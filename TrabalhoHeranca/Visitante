@@ -1,0 +1,8 @@
+package Trabalho;
+
+public class Visitante extends Pessoa {
+	
+	
+	
+
+}
