@@ -1,0 +1,27 @@
+import java.util.Scanner;
+
+public class repetição {
+
+	public static void main(String[] args) {
+		int numero,s=0;
+      
+		String resp;
+		Scanner teclado =new Scanner(System.in);
+		
+		
+	do
+	{
+		System.out.println("digite um numero");
+		numero= teclado.nextInt();
+		s = s+ numero;
+		System.out.println("que continua? [s/n]");
+		
+		resp = teclado.next();
+		
+		
+	}while(resp.equals("s"));
+	
+	System.out.println("A soma de todos os valores è "+ s);
+		
+		
+	
