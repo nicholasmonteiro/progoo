@@ -1,0 +1,32 @@
+package Trabalho;
+
+public class Bolsista extends Aluno{
+	
+	
+	private static int bolsa ;
+	
+	
+	public void renovarbolsa()
+	{
+		
+		System.out.println("Bolsa renovada!");
+		
+	}
+	
+	public static void pagarMensalidade(float valor)
+	{
+		System.out.println("Valor recebido = " + valor);
+		System.out.println("Valor mensalidade = " + (valor+bolsa));
+	}
+
+	
+	public int getBolsa() {
+		return bolsa;
+	}
+
+	
+	public void setBolsa(int bolsa) {
+		this.bolsa = bolsa;
+	}
+
+}
