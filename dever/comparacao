@@ -1,0 +1,17 @@
+
+public class Comparacao {
+
+	public static void main(String[] args) {
+	
+		String nome1="gustavo";
+		String nome2="gustavo";
+		String nome3=new String("nicholas");
+		String res;
+		
+		res=(nome1.equals(nome3)) ?"igual":"diferente";
+		
+		System.out.println(res);
+
+	}
+
+}
