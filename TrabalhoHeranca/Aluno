@@ -1,0 +1,48 @@
+package Trabalho;
+
+public class Aluno extends Pessoa {
+
+private String Matricula;
+private String curso;
+
+	
+public void pagarmensalidade(float valor)
+{
+	System.out.println("Obrigado!, valor recebido = " + valor);
+	System.out.println("Valor mensalidade = " + valor );
+	
+}
+
+
+public void cancelarMatricula()
+{
+	System.out.println("Matricula cancelada com sucesso!!!");
+}
+
+
+public String getMatricula() {
+	return Matricula;
+}
+
+
+
+public void setMatricula(String string) {
+	this.Matricula = string;
+}
+
+
+
+public String getCurso() {
+	return curso;
+}
+
+
+
+public void setCurso(String curso) {
+	this.curso = curso;
+}
+
+
+
+
+}
