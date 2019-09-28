@@ -1,0 +1,22 @@
+package Aluno;
+
+public class AlunoSTeste {
+
+	public static void main(String[] args) {
+		
+				AlunoS al = new AlunoS();
+				
+			al.setCurso("si");
+			al.setMatricula("09000");
+			al.setNome("angelo");
+			
+				
+				
+
+			}
+
+		
+
+
+
+	}
