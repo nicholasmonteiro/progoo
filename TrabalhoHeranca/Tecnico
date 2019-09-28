@@ -1,0 +1,27 @@
+package Trabalho;
+
+public class Tecnico extends Aluno {
+
+	
+	private String registroProfissional;
+	
+public void pratica()
+
+{
+	System.out.println(	"registrar informacao "	);
+	
+}
+
+
+public String getRegistroProfissional() {
+	return registroProfissional;
+}
+
+public void setRegistroProfissional(String registroProfissional) {
+	this.registroProfissional = registroProfissional;
+}
+	
+
+
+}
+
