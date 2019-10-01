@@ -1,0 +1,67 @@
+package Trabalho;
+
+public class PessoaTester {
+
+	public static void main(String[] args) {
+		
+		
+		 //classe abstrada //
+		//Pessoa p1 = new Pessoa();
+		
+		//p1.setNome("jennifer");
+		//p1.setIdade(20);
+		//p1.setSexo("f");
+		
+
+		
+		Aluno a1=new Aluno ();
+		a1.setCurso("SI");
+		a1.setIdade(22);
+		a1.setMatricula("09099889");
+		a1.setNome("Milena");
+		a1.setSexo("f");
+	
+
+	Professor prof= new Professor();
+	
+	prof.setNome("Alex");
+    prof.setIdade(30);
+    prof.setSexo("m");
+    prof.setSalario(999);
+    prof.setEspecialidade("programacao");
+
+    
+    Tecnico tec= new Tecnico();
+   tec.setIdade(40);	
+   tec.setNome("oscar");
+   tec.setSexo("m");
+   tec.setRegistroProfissional("medio");
+    
+   Bolsista b=new Bolsista();
+   
+  b.setBolsa(60);
+  b.setNome("nick");
+  b.setIdade(22);
+  b.setSexo("m");
+ Visitante v= new Visitante();
+ 
+ v.setIdade(30);
+ v.setNome("angelo");
+ v.setSexo("m");
+ 
+  
+   
+//System.out.println(p1.toString());
+		
+		//System.out.println(a1.toString());
+		//System.out.println(prof.toString());
+		//System.out.println(tec.toString());
+		//System.out.println(v.toString());
+		//System.out.println(b.toString());
+		
+		
+		a1.pagarmensalidade(1000);
+		Bolsista.pagarMensalidade(800);
+ 
+}
+}
