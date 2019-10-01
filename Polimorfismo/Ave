@@ -1,0 +1,32 @@
+package semana5;
+
+public class Ave extends Animal {
+
+	
+	
+	public void FazerNinho()
+	
+	{
+		System.out.println("passaro fazendo ninho");
+		
+	}
+	
+	@Override
+	public void locomover() {
+	
+		System.out.println("Ave está voando");
+	}
+
+	@Override
+	public void alimentar() {
+	
+		System.out.println("Ave está se alimentando");
+	}
+
+	@Override
+	public void emitirSom() {
+	
+		System.out.println("Ave  cantando");
+	}
+
+}
