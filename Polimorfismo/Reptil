@@ -6,7 +6,7 @@ public class Reptil extends Animal {
 	public void locomover() {
 		
 		
-		System.out.println("Reptil está comendo!");
+		System.out.println("Reptil está rastejando");
 	}
 
 	@Override
