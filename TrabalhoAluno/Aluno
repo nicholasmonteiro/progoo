@@ -1,3 +1,14 @@
+1 - Crie uma classe Java com 3 atributos:
+matricula
+nome
+curso
+2- Crie um programa principal Semana3.java para ler essas informações do teclado e popular o objeto.
+3-Crie um método listar() que imprime o conteúdo dos atributos acima.
+4-Crie uma regra de negócio na Classe Aluno, se usuário enviar “SI” ou “si”, você deve considerar como sendo “Sistemas de Informação”
+
+
+
+
 //crie umma classe java com 3 atributos//
    //-matricula//
    //- nome//
