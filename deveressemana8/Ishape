@@ -1,0 +1,9 @@
+package semana8;
+
+public interface Ishape {
+		
+	public float getArea();
+	public float getPerimetro();
+
+
+}
