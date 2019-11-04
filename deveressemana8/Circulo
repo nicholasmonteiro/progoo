@@ -1,0 +1,42 @@
+package semana8;
+
+public class Circulo implements Ishape,Ishow {
+
+	
+	public float raio;
+	
+public Circulo(float raio){
+		
+		setRaio(raio);
+	}
+	
+	public float getRaio() {
+		return raio;
+	}
+
+	public void setRaio(float raio) {
+		this.raio = raio;
+	}
+
+	@Override
+	public void imprimir() {
+		
+		System.out.println("Area circulo = " + getArea());
+		System.out.println("Perimetro circulo =" + getPerimetro());
+	}
+
+	@Override
+	public float getArea() {
+
+		return 3.14f * (this.raio * this.raio);
+	}
+
+	@Override
+	public float getPerimetro() {
+	
+		return (2*3.14f) * this.raio;
+	}
+
+}
+	
+	
