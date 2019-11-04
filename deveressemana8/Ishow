@@ -1,0 +1,7 @@
+package semana8;
+
+public interface Ishow {
+	
+	public void imprimir(); // imprime area e perimetro
+
+}
