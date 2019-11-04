@@ -1,0 +1,21 @@
+package semana8;
+
+import java.util.Scanner;
+
+public class ShapeTester {
+
+     public static void main(String[] args) {
+	
+    	 Retangulo retangulo = new Retangulo(6, 2);
+ 		retangulo.imprimir();
+		System.out.println("*************************")	;	
+				
+			    Triangulo triangulo = new Triangulo(6, 2, 4);
+				triangulo.imprimir();
+				System.out.println("****************");
+				
+				Circulo circulo = new Circulo(6);
+				circulo.imprimir();
+			
+	}
+}
