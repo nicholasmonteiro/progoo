@@ -1,0 +1,53 @@
+package trabalhoo;
+
+import java.util.InputMismatchException;
+import java.util.Scanner;
+
+
+public class IShapeTester {
+static float altura;
+static float base;
+    public static void main(String[] args) {
+        // TODO code application logic here
+        
+        Retangulo r = new Retangulo();
+
+	Scanner ler = new Scanner(System.in); 
+        boolean aux = true;
+       
+        
+        do
+        {
+            
+        try
+        {
+            System.out.println("Entre com a base do retangulo?: ");
+            base=ler.nextFloat();
+            r.setBase(base);
+            
+            System.out.println("Entre com a altura do retangulo ?: ");
+             altura=ler.nextFloat();
+             
+             r.setAltura(altura);
+              r.imprimir();
+            
+            aux = false;
+        }
+        catch
+       (InputMismatchException e)
+           {
+        	
+               System.out.println("Digite apenas numeros!");
+               
+               ler.nextLine();
+           }
+        
+
+        }
+        
+        while( aux == true );
+       
+        
+    }
+    
+}
