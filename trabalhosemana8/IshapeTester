@@ -21,11 +21,11 @@ static float base;
             
         try
         {
-            System.out.println("Entre com a base do retangulo?: ");
+            System.out.println("Entre com a base do retangulo? ");
             base=ler.nextFloat();
             r.setBase(base);
             
-            System.out.println("Entre com a altura do retangulo ?: ");
+            System.out.println("Entre com a altura do retangulo ? ");
              altura=ler.nextFloat();
              
              r.setAltura(altura);
