@@ -1,0 +1,9 @@
+package trabalhoo;
+
+public interface IShow {
+
+	
+	public void imprimir();
+  
+  
+}
